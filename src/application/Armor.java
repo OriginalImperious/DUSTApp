@@ -2,6 +2,9 @@ package application;
 
 public class Armor extends Equipment {
 
+	// Needs to initialize an ArrayList<Equipment> from a local file.
+	// Local file will be built using utilities and shipped with download and updated as needed.
+	
 	protected int resistanceImpact = 0;
 	protected int resistanceCutting = 0;
 	protected int resistanceEdged = 0;
